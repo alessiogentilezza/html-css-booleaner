@@ -1,7 +1,11 @@
+body {
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+}
+
 header {
     height: 100px;
     background-color: rgb(78, 160, 255);
-    background-image:url(../img/pattern.png);
+    background-image: url(../img/pattern.png);
     background-repeat: repeat-x;
     background-size: contain;
 }
@@ -9,13 +13,57 @@ header {
 header img {
     height: 50px;
     background-repeat: no-repeat;
-    margin-top: 50px;
+    margin-top: 40px;
 }
-.autore {
-    font-size: 12px;
+
+h1 {
+    width: 80%;
+    margin: 0%;
+}
+
+#immagini {
+    margin-top: 20px;
+}
+
+.testo-grigio {
+    font-size: 14px;
     color: rgb(186, 186, 186);
 }
 
 .didascalia {
-    font-size: 10px;
+    font-size: 12px;
+}
+
+main p {
+    width: 80%;
+}
+
+table {
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td,
+th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 10px;
+}
+
+thead {
+    background-color: rgb(32, 169, 229);
+    color: white;
+}
+
+.rigazzurra {
+    background-color: rgb(177, 229, 242);
+}
+
+.rigabianca {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    padding-left: 20px
 }
