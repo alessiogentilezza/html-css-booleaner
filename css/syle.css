@@ -6,16 +6,16 @@ header {
     background-size: contain;
 }
 
-#logo {
+header img {
     height: 50px;
-    background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
+    margin-top: 50px;
 }
 .autore {
     font-size: 12px;
     color: rgb(186, 186, 186);
 }
-#autore2 {
-    font-size: 12px;
-    color: rgb(31, 170, 230);
+
+.didascalia {
+    font-size: 10px;
 }
