@@ -17,12 +17,15 @@ header img {
 }
 
 h1 {
-    width: 80%;
+    width: 1020px;
     margin: 0%;
 }
 
 #immagini {
     margin-top: 20px;
+    width: 1020px;
+
+
 }
 
 .testo-grigio {
@@ -32,36 +35,39 @@ h1 {
 
 .didascalia {
     font-size: 12px;
+    margin-top: 0px;
 }
 
 main p {
-    width: 80%;
+    width: 1020px;
 }
 
 table {
     font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 80%;
+    width: 1020px;
 }
 
 td,
 th {
     border: 1px solid #ffffff;
     text-align: left;
-    padding: 10px;
 }
 
-thead {
+.rigascura {
     background-color: #20A9E5;
     color: white;
+    height: 10px;
 }
 
-.rigazzurra {
+.rigachiara {
     background-color: #B1E5F2;
+    height: 40px;
 }
 
 .rigabianca {
     background-color: #ffffff;
+    height: 40px;
 }
 
 ul {
