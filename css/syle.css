@@ -1,0 +1,21 @@
+header {
+    height: 100px;
+    background-color: rgb(78, 160, 255);
+    background-image:url(../img/pattern.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#logo {
+    height: 50px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+}
+.autore {
+    font-size: 12px;
+    color: rgb(186, 186, 186);
+}
+#autore2 {
+    font-size: 12px;
+    color: rgb(31, 170, 230);
+}
